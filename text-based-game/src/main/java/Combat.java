@@ -2,7 +2,7 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class Combat {
 
-    public void combat (Player player, Player enemy) {
+    public static void combat (Player player, Player enemy) {
 
         do {
             double chance = Math.random();
@@ -24,8 +24,6 @@ public class Combat {
             System.out.println("**** " + enemy.getName() + " wins ****");
         }
     }
-
-
 
 }
 
