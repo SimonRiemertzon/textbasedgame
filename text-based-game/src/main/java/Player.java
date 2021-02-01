@@ -1,7 +1,13 @@
+import java.awt.print.Book;
+
 public class Player {
 	
 	private int healthpoints;
 	private String name;
+
+
+
+	private Boolean hasKey;
 
 	public Player(int healthpoints, String name) {
 		this.healthpoints = 100;
@@ -9,14 +15,7 @@ public class Player {
 			
 	}
 	
-	public int gethealthpoints() {
-		return healthpoints;
-	}
-	
 
-	public String getName() {
-		return name;
-	}
 	
 	public void takedamage(int damage) {
 		this.healthpoints -= damage;
@@ -30,4 +29,24 @@ public class Player {
 	public void doAction() {
 		
 	}
+
+
+	public void setHasKey(Boolean hasKey) {
+		this.hasKey = hasKey;
+	}
+
+	public boolean getHasKey() {
+		return this.hasKey;
+	}
+
+	public int gethealthpoints() {
+		return healthpoints;
+	}
+
+
+	public String getName() {
+		return name;
+	}
+
+
 }
