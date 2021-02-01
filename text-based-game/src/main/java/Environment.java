@@ -1,13 +1,13 @@
 import java.util.ArrayList;
 
-public class Enviroment {
+public class Environment {
 
 	private String name;
 	private String description;
 	private String listOfActions;
 	private ArrayList<Interactable> listOfInteractables;
 	
-	public Enviroment(String name, String description, ArrayList<Actionable> listOfActions,
+	public Environment(String name, String description, String listOfActions,
 			ArrayList<Interactable> listOfInteractables) {
 		super();
 		this.name = name;
@@ -31,7 +31,7 @@ public class Enviroment {
 	
 	
 	public String toString() {
-		return String.format(description, listOfInteractables);
+		return description + listOfActions + listOfInteractables;
 	}
 }
 
