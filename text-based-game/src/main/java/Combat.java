@@ -1,7 +1,7 @@
 public class Combat {
 
 
-    public void damage(Player player) {
+    public void damage() {
 
     }
 
