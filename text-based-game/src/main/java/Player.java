@@ -1,16 +1,16 @@
 public class Player {
 	
-	private int healthpoints;
+	private int healthPoints;
 	private String name;
 
-	public Player(int healthpoints, String name) {
-		this.healthpoints = 100;
+	public Player(int healthPoints, String name) {
+		this.healthPoints = 100;
 		this.name = name;
 			
 	}
 	
-	public int gethealthpoints() {
-		return healthpoints;
+	public int getHealthPoints() {
+		return healthPoints;
 	}
 	
 
@@ -18,10 +18,10 @@ public class Player {
 		return name;
 	}
 	
-	public void takedamage(int damage) {
-		this.healthpoints -= damage;
+	public void takeDamage(int damage) {
+		this.healthPoints -= damage;
 		
-		if (this.healthpoints <= 0) {
+		if (this.healthPoints <= 0) {
 			System.out.printf("Spelet är över");
 			
 		} 
