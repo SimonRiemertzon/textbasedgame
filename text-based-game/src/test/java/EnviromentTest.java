@@ -5,7 +5,7 @@ class EnviromentTest {
 
     @BeforeEach
     void setUp() {
-        Enviroment env = new Enviroment();
+
     }
 
 

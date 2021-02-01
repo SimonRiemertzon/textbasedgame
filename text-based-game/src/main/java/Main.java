@@ -13,11 +13,8 @@ public class Main {
                 new ArrayList<String>(Arrays.asList("Go to the door"))
         );
 
-        System.out.println(env1.getDescription());
-        for (Interactable interactable: env1
-             ) {
+        System.out.println("\n" + env1);
 
-        }
 
 
 

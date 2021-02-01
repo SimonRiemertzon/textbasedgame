@@ -25,14 +25,24 @@ public class Enviroment {
 		return description;
 	}
 	
-	public String getListOfActions() {
+	public ArrayList<String> getListOfActions() {
 		return listOfActions;
 	}
 
-	
+	public ArrayList<Interactable> getListOfInteractables() {
+		return listOfInteractables;
+	}
 	
 	public String toString() {
-		return String.format(description, listOfInteractables);
+		StringBuilder sb = new StringBuilder();
+		sb.append(description);
+		for (Interactable interactive : listOfInteractables
+			 ) {
+			sb.append(" " + interactive.getName() + "\n" );
+		}
+		
+
+		return sb.toString();
 	}
 }
 
