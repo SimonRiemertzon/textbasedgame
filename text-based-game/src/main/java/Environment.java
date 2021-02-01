@@ -29,9 +29,15 @@ public class Environment {
 	}
 
 	
-	
+	@Override
 	public String toString() {
-		return description + listOfActions + listOfInteractables;
+		StringBuilder sb = new StringBuilder();
+		sb.append(description);
+		for (Interactable interactive : listOfInteractables) {
+			sb.append("" + interactive.getName() + "\n");
+		}
+		
+		return sb.toString();
 	}
 }
 
