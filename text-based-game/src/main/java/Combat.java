@@ -4,9 +4,6 @@ public class Combat {
     public void damage() {
 
     }
-
-
-
 }
 
 /*

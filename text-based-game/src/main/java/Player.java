@@ -9,11 +9,9 @@ public class Player {
         this.name = name;
     }
 
-
     public int getHealthPoints() {
         return healthPoints;
     }
-
 
     public void takeDamage(int damage) {
         this.healthPoints -= damage;
@@ -26,7 +24,6 @@ public class Player {
     public void doAction() {
 
     }
-
 
     public void setHasKey(Boolean hasKey) {
         this.hasKey = hasKey;
