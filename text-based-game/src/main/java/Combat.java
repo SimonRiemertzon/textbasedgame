@@ -1,15 +1,19 @@
+import java.util.concurrent.ThreadLocalRandom;
+
 public class Combat {
 
     public void combat (Player player, Player enemy) {
 
         do {
             double chance = Math.random();
+            int rand = ThreadLocalRandom.current().nextInt(10)+1;
+
             if (chance < 0.5) {
                 System.out.println(player.getName() + " damages " + enemy.getName());
-                enemy.takeDamage(10);
+                enemy.takeDamage(rand);
             }else {
                 System.out.println(enemy.getName() + " damages " + player.getName());
-                player.takeDamage(10);
+                player.takeDamage(rand);
             }
 
         } while (player.getHealthPoints() > 0 && enemy.getHealthPoints() > 0);
