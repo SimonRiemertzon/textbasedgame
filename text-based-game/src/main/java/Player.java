@@ -4,9 +4,6 @@ public class Player {
 	
 	private int healthpoints;
 	private String name;
-
-
-
 	private Boolean hasKey;
 
 	public Player(int healthpoints, String name) {

@@ -40,7 +40,7 @@ public class Enviroment {
 			 ) {
 			sb.append(" " + interactive.getName() + "\n" );
 		}
-		
+
 
 		return sb.toString();
 	}
