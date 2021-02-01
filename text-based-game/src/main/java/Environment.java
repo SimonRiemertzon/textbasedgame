@@ -1,13 +1,14 @@
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 
-public class Enviroment {
-
+public class Environment {
+    
     private String name;
     private String description;
     private ArrayList<String> listOfActions;
     private ArrayList<Interactable> listOfInteractables;
 
-    public Enviroment(String name, String description, ArrayList<Interactable> listOfInteractables,
+    public Environment(String name, String description, ArrayList<Interactable> listOfInteractables,
                       ArrayList<String> listOfActions
     ) {
         super();
@@ -43,5 +44,6 @@ public class Enviroment {
 
         return sb.toString();
     }
+
 }
 
