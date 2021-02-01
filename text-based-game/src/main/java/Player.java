@@ -3,6 +3,7 @@ import java.awt.print.Book;
 public class Player {
     private int healthPoints;
     private String name;
+    private Boolean hasKey;
 
     public Player(int healthPoints, String name) {
         this.healthPoints = 100;
@@ -34,9 +35,8 @@ public class Player {
     }
 
     public int gethealthpoints() {
-        return healthpoints;
+        return healthPoints;
     }
-
 
     public String getName() {
         return name;

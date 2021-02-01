@@ -2,7 +2,7 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class Environment {
-    
+
     private String name;
     private String description;
     private ArrayList<String> listOfActions;
