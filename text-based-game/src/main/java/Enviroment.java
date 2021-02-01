@@ -24,30 +24,15 @@ public class Enviroment {
 	public String getDescription() {
 		return description;
 	}
+	
+	public String getListOfActions() {
+		return listOfActions;
+	}
 
 	
-    
-    
-    
-   /** 
-    -name
-    -description
-    -listOfActions
-    -listOfInteractables
-
-    +getdescription()
-    +getName() 
-    */
+	
+	public String toString() {
+		return String.format(description, listOfInteractables);
+	}
 }
 
-/**
- ArrayList<String> areas = new ArrayList<String>();
- 
-areas.add("Dark room");
-
-ArrayList<String> objects = new ArrayList<String>();
-objects.add("key");
-objects.add("window");
-objects.add("table");
-objects.add("door");
-*/
