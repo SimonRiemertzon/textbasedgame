@@ -1,5 +1,5 @@
 
-public interface Interactable {
+public interface Interactable  {
 	void interact(Player player);
 	String getName();
 }
