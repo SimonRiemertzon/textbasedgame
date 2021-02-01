@@ -1,13 +1,37 @@
+import java.util.ArrayList;
 
-public class Enviroment implements Interactable {
+public class Enviroment {
 
-    @Override
-    public void interact(Player player) {
+	private String name;
+	private String description;
+	private String listOfActions;
+	private ArrayList<Interactable> listOfInteractables;
+	
+	public Enviroment(String name, String description, ArrayList<Actionable> listOfActions,
+			ArrayList<Interactable> listOfInteractables) {
+		super();
+		this.name = name;
+		this.description = description;
+		this.listOfActions = listOfActions;
+		this.listOfInteractables = listOfInteractables;
+	}
 
-    }
+	public String getName() {
+		return name;
+	}
 
-    @Override
-    public String getName() {
-        return null;
-    }
+	public String getDescription() {
+		return description;
+	}
+	
+	public String getListOfActions() {
+		return listOfActions;
+	}
+
+	
+	
+	public String toString() {
+		return String.format(description, listOfInteractables);
+	}
 }
+
