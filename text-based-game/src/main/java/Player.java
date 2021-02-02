@@ -6,8 +6,9 @@ public class Player {
     private Boolean hasKey;
 
     public Player(int healthPoints, String name) {
-        this.healthPoints = 100;
+        this.healthPoints = healthPoints;
         this.name = name;
+        this.hasKey = false;
     }
 
     public int getHealthPoints() {
@@ -27,6 +28,7 @@ public class Player {
     }
 
     public void setHasKey(Boolean hasKey) {
+        System.out.println("You now have the key in your inventory!");
         this.hasKey = hasKey;
     }
 
@@ -41,4 +43,5 @@ public class Player {
     public String getName() {
         return name;
     }
+
 }
