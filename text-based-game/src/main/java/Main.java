@@ -18,8 +18,7 @@ public class Main {
 
         Environment env1 = new Environment("Dark Room",
                 "You wake up in a dark room. You can see",
-                new ArrayList<Interactable>(Arrays.asList(door1)),
-                new ArrayList<String>(Arrays.asList("Go to the door"))
+                new ArrayList<Interactable>(Arrays.asList(door1))
         );
 
         System.out.println(env1);
