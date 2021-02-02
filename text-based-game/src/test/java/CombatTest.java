@@ -90,4 +90,5 @@ class CombatTest {
 
       assertEquals(0, p1.getHealthPoints());
     }
+
 }

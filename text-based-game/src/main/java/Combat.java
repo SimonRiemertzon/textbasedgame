@@ -1,3 +1,4 @@
+
 import java.util.concurrent.ThreadLocalRandom;
 public class Combat {
 
@@ -25,5 +26,6 @@ public class Combat {
         }
     }
 }
+
 
 
