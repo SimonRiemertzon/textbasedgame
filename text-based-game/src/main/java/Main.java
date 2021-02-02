@@ -8,8 +8,8 @@ public class Main {
         //new Key(); /interactable
         //new Window(); /interactable
 
-        Player player = new Player(100, "Simon");
-        Player enemy = new Player(30, "Goblin");
+        Player player = new Player( "Simon");
+        Player enemy = new Player( "Goblin");
 
         Environment env1 = new Environment("Dark Room",
                 "You wake up in a dark room. You can see",
