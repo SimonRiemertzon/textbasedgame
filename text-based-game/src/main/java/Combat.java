@@ -24,11 +24,3 @@ public class Combat {
             System.out.println("**** " + enemy.getName() + " wins ****");
         }
     }
-
-}
-
-/*
-    combat method (player, enemy)
-    thread local random
-    highest number wins
-*/
