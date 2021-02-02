@@ -6,24 +6,29 @@ class PlayerTest {
 
     @Test
     void gethealthpoints() {
-      fail("Not yet implemented");
+        Player p1 = new Player("Bosse");
+        assertEquals(100, p1.getHealthPoints());
+    }
+
+    @Test
+    void getWrongHealthPoints() {
+        Player p1 = new Player("Bosse");
+        assertFalse(p1.getHealthPoints() == 90);
     }
 
     @Test
     void getName() {
-      fail("Not yet implemented");
+        fail("Not yet implemented");
     }
 
     @Test
     void takedamage() {
-      fail("Not yet implemented");
+        fail("Not yet implemented");
     }
 
     @Test
     void doAction() {
-      fail("Not yet implemented");
+        fail("Not yet implemented");
     }
-
-
 }
 
