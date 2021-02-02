@@ -6,13 +6,13 @@ class PlayerTest {
 
     @Test
     void gethealthpoints() {
-        Player p1 = new Player("Bosse");
+        Player p1 = new Player(100, "Bosse");
         assertEquals(100, p1.getHealthPoints());
     }
 
     @Test
     void getWrongHealthPoints() {
-        Player p1 = new Player("Bosse");
+        Player p1 = new Player(100,"Bosse");
         assertFalse(p1.getHealthPoints() == 90);
     }
 

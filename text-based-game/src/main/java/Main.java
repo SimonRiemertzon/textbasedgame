@@ -15,8 +15,8 @@ public class Main {
 
         System.out.println("Please enter your name, hero!");
 
-        Player player = new Player(scan.next());
-        Player enemy = new Player( "Goblin");
+        Player player = new Player(100, scan.next());
+        Player enemy = new Player(30,  "Goblin");
 
         Environment env1 = new Environment("Dark Room",
                 "You wake up in a dark room. You can see",
