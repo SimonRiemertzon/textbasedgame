@@ -1,14 +1,19 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.InputMismatchException;
+import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
+    	Scanner scan = new Scanner(System.in);
         Door door1 = new Door();
         //new Key(); /interactable
         //new Window(); /interactable
+        
+        System.out.println("Please enter your name, hero!");
+        Player player = new Player(100, scan.next());
 
-        Player player = new Player(100, "Simon");
         Player enemy = new Player(30, "Goblin");
 
         Environment env1 = new Environment("Dark Room",
@@ -18,6 +23,14 @@ public class Main {
         );
 
         System.out.println(env1);
+        
+        try {
+        	final int choice = scan.nextInt();
+        	env1.doActionsWith(choice, player);
+        	
+        } catch (InputMismatchException e) {
+        	System.out.println("You entered something that is not a number. ");
+        }
 
 
 

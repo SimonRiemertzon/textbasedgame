@@ -8,8 +8,7 @@ public class Environment {
     private ArrayList<Interactable> listOfInteractables;
 
     public Environment(String name, String description, ArrayList<Interactable> listOfInteractables,
-                      ArrayList<String> listOfActions
-    ) {
+                      ArrayList<String> listOfActions) {
         super();
         this.name = name;
         this.description = description;
@@ -46,6 +45,11 @@ public class Environment {
             sb.append((i + 1) + " " + listOfActions.get(i));
         }
         return sb.toString();
+    }
+    
+    public void doActionsWith(int choice, Player player) {
+    	final Interactable chosenAction = getChosenAction(choice);
+    	System.out.println(choice);
     }
 }
 
