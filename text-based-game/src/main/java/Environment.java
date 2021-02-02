@@ -48,15 +48,5 @@ public class Environment {
         return sb.toString();
     }
 
-    private Interactable getChosenInteractable(int choice) {
-        //letar vi upp, vald interactable
-        return null;
-    }
-
-    public void doActionsWith(int choice,Player player) {
-        final Interactable chosenInteractable = getChosenInteractable(choice);
-        chosenInteractable.interact(player);
-        System.out.printf("NOT IMPLEMENTED %d", choice);
-    }
 }
 

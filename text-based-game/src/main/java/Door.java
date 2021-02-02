@@ -26,3 +26,4 @@ public class Door implements Interactable {
         System.out.println("The door creaks when it opens");
     }
 }
+
