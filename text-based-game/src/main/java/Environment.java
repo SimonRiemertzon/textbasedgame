@@ -4,17 +4,14 @@ public class Environment {
 
     private String name;
     private String description;
-    private ArrayList<String> listOfActions;
     private ArrayList<Interactable> listOfInteractables;
 
-    public Environment(String name, String description, ArrayList<Interactable> listOfInteractables,
-                      ArrayList<String> listOfActions
+    public Environment(String name, String description, ArrayList<Interactable> listOfInteractables
     ) {
         super();
         this.name = name;
         this.description = description;
         this.listOfInteractables = listOfInteractables;
-        this.listOfActions = listOfActions;
     }
 
     public String getName() {
@@ -23,10 +20,6 @@ public class Environment {
 
     public String getDescription() {
         return description;
-    }
-
-    public ArrayList<String> getListOfActions() {
-        return listOfActions;
     }
 
     public ArrayList<Interactable> getListOfInteractables() {
@@ -42,9 +35,6 @@ public class Environment {
         }
         sb.append("What would you like to do? \n");
 
-        for (int i = 0; i < listOfActions.size() ; i++) {
-            sb.append((i + 1) + ". " + listOfActions.get(i));
-        }
         return sb.toString();
     }
 
