@@ -43,9 +43,10 @@ public class Environment {
         sb.append("What would you like to do? \n");
 
         for (int i = 0; i < listOfActions.size() ; i++) {
-            sb.append((i + 1) + " " + listOfActions.get(i));
+            sb.append((i + 1) + ". " + listOfActions.get(i));
         }
         return sb.toString();
     }
+
 }
 

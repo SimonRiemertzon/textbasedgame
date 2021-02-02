@@ -1,3 +1,4 @@
+
 import java.awt.print.Book;
 
 public class Player {
@@ -5,8 +6,9 @@ public class Player {
     private String name;
     private Boolean hasKey;
 
-    public Player(int healthPoints, String name) {
+    public Player(String name) {
         this.healthPoints = 100;
+        this.hasKey = false;
         this.name = name;
     }
 
@@ -41,4 +43,5 @@ public class Player {
     public String getName() {
         return name;
     }
+
 }
