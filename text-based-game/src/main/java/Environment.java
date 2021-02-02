@@ -33,8 +33,6 @@ public class Environment {
         ) {
             sb.append(" " + interactive.getName() + "\n");
         }
-        sb.append("What would you like to do? \n");
-
         return sb.toString();
     }
 

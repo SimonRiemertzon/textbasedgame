@@ -21,7 +21,7 @@ class EnvironmentTest {
 	}
 	
 	public void testToString() {
-		
+
 	}
 
 }
