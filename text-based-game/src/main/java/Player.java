@@ -8,6 +8,7 @@ public class Player {
     public Player(int healthPoints, String name) {
         this.healthPoints = healthPoints;
         this.name = name;
+        this.hasKey = false;
     }
 
     public int getHealthPoints() {
