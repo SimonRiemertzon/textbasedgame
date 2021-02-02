@@ -1,4 +1,3 @@
-
 import java.awt.print.Book;
 
 public class Player {
@@ -6,9 +5,8 @@ public class Player {
     private String name;
     private Boolean hasKey;
 
-    public Player(String name) {
-        this.healthPoints = 100;
-        this.hasKey = false;
+    public Player(int healthPoints, String name) {
+        this.healthPoints = healthPoints;
         this.name = name;
     }
 
@@ -20,7 +18,7 @@ public class Player {
         this.healthPoints -= damage;
 
         if (this.healthPoints <= 0) {
-            System.out.printf("You died!");
+            System.out.printf("Spelet är över");
         }
     }
 

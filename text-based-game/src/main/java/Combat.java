@@ -1,7 +1,9 @@
+
 import java.util.concurrent.ThreadLocalRandom;
 public class Combat {
 
     public static void combat (Player player, Player enemy) {
+
 
         do {
             double chance = Math.random();
@@ -24,5 +26,6 @@ public class Combat {
         }
     }
 }
+
 
 
