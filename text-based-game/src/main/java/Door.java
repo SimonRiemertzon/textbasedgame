@@ -6,7 +6,7 @@ public class Door implements Interactable {
 
     @Override
     public void interact(Player player) {
-
+        player.setHasKey(true);
     }
 
     @Override
