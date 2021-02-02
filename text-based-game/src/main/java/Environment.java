@@ -43,10 +43,20 @@ public class Environment {
         sb.append("What would you like to do? \n");
 
         for (int i = 0; i < listOfActions.size() ; i++) {
-            sb.append((i + 1) + " " + listOfActions.get(i));
+            sb.append((i + 1) + ". " + listOfActions.get(i));
         }
         return sb.toString();
     }
 
+    private Interactable getChosenInteractable(int choice) {
+        //letar vi upp, vald interactable
+        return null;
+    }
+
+    public void doActionsWith(int choice,Player player) {
+        final Interactable chosenInteractable = getChosenInteractable(choice);
+        chosenInteractable.interact(player);
+        System.out.printf("NOT IMPLEMENTED %d", choice);
+    }
 }
 
