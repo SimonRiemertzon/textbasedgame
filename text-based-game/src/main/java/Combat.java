@@ -1,5 +1,4 @@
 import java.util.concurrent.ThreadLocalRandom;
-
 public class Combat {
 
     public static void combat (Player player, Player enemy) {
@@ -26,8 +25,4 @@ public class Combat {
     }
 }
 
-/*
-    combat method (player, enemy)
-    thread local random
-    highest number wins
-*/
+
