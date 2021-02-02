@@ -1,4 +1,3 @@
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class Environment {
@@ -36,12 +35,16 @@ public class Environment {
 
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append(description);
+        sb.append(description + "\n");
         for (Interactable interactive : listOfInteractables
         ) {
             sb.append(" " + interactive.getName() + "\n");
         }
+        sb.append("What would you like to do? \n");
 
+        for (int i = 0; i < listOfActions.size() ; i++) {
+            sb.append((i + 1) + " " + listOfActions.get(i));
+        }
         return sb.toString();
     }
 
