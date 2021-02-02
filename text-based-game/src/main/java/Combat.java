@@ -3,6 +3,7 @@ public class Combat {
 
     public static void combat (Player player, Player enemy) {
 
+
         do {
             double chance = Math.random();
             int rand = ThreadLocalRandom.current().nextInt(10)+1;

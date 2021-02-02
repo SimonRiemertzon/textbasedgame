@@ -6,7 +6,7 @@ public class Player {
     private Boolean hasKey;
 
     public Player(int healthPoints, String name) {
-        this.healthPoints = 100;
+        this.healthPoints = healthPoints;
         this.name = name;
     }
 
