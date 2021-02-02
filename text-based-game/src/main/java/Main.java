@@ -76,6 +76,7 @@ public class Main {
         }
 
         System.out.println("YOU GET ATTACKED BY A GOBLIN! :O ");
+        System.out.println("PRESS ANY KEY AND ENTER TO CONTINUE");
         scan.hasNext();
         Combat.combat(player, enemy);
 
