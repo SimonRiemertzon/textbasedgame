@@ -7,6 +7,7 @@ public class Player {
 
     public Player(String name) {
         this.healthPoints = 100;
+        this.hasKey = false;
         this.name = name;
     }
 

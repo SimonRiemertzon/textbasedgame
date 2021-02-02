@@ -23,15 +23,24 @@ public class Main {
         );
 
         System.out.println(env1);
-
+        final int choice = scan.nextInt();
         try {
-            final int choice = scan.nextInt();
-            env1.doActionsWith(choice,  player);
-
+            if(choice == 1 ) {
+                System.out.println("You walk to the door.");
+                door1.interact(player);
+            }
 
         } catch (InputMismatchException e) {
-            System.out.println("You entered something that is not a number. ");
+            System.out.println("You entered something that is not a number.");
         }
+
+
+
+
+
+
+
+
 
 
 
