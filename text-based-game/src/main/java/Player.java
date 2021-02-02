@@ -28,6 +28,7 @@ public class Player {
     }
 
     public void setHasKey(Boolean hasKey) {
+        System.out.println("You now have the key in your inventory!");
         this.hasKey = hasKey;
     }
 
