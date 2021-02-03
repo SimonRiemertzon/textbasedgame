@@ -7,8 +7,6 @@ import java.util.regex.Pattern;
 public class Main {
 
     public static void main(String[] args) {
-        setup();
-
         Scanner scan = new Scanner(System.in);
         Door door1 = new Door();
 
@@ -23,15 +21,6 @@ public class Main {
                 loop = false;
             }
         } while(loop);
-        //String s = "smith23";
-                //if (Pattern.matches("[a-zA-Z]+",s)) {
-                //  // Do something
-                //  System.out.println("Yes, string contains letters only");
-                //}else{
-                //  System.out.println("Nope, Other characters detected");
-                //}
-
-
 
         Player player = new Player(100, playerName);
         Player enemy = new Player(30,  "Goblin");
@@ -42,8 +31,7 @@ public class Main {
         );
 
         System.out.println(env1);
-        
-       
+
         try {
             while (!player.getHasKey()) {
                 System.out.println("What would you like to do?");
@@ -99,47 +87,9 @@ public class Main {
         Combat.combat(player, enemy);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//
-//            Scanner scan = new Scanner(System.in);
-//            Player player1 = new Player("Jane Doe");
-//            Interactive[] things = { new Horse(), new Mirror() };
-//            System.out.println("Du ser: ");
-//            for (Interactive thing : things) {
-//                System.out.println(thing.getName());
-//            }
-//            String answer;
-//            do {
-//                System.out.println("Vad vill du använda?");
-//                answer = scan.nextLine();
-//                answer = answer.trim();
-//                for (Interactive thing : things) {
-//                    if (answer.equals(thing.getName())) {
-//                        thing.interact(player1);
-//                        break;
-//                    }
-//                }
-//            } while (!"avsluta".equals(answer));
-//        }
     }
 
-    private static void setup() {
 
-
-    }
 }
 
 
