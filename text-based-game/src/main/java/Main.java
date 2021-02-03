@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.InputMismatchException;
 import java.util.Scanner;
+import java.util.regex.Pattern;
 
 public class Main {
 
@@ -12,8 +13,27 @@ public class Main {
         Door door1 = new Door();
 
         System.out.println("Please enter your name, hero!");
+        String playerName;
+        Boolean loop = true;
+        do {
+            playerName = scan.nextLine();
+            if(!Pattern.matches("[a-zA-Z]+", playerName)) {
+                System.out.println("You entered something that is not alphabetical");
+            } else {
+                loop = false;
+            }
+        } while(loop);
+        //String s = "smith23";
+                //if (Pattern.matches("[a-zA-Z]+",s)) {
+                //  // Do something
+                //  System.out.println("Yes, string contains letters only");
+                //}else{
+                //  System.out.println("Nope, Other characters detected");
+                //}
 
-        Player player = new Player(100, scan.next());
+
+
+        Player player = new Player(100, playerName);
         Player enemy = new Player(30,  "Goblin");
 
         Environment env1 = new Environment("Dark Room",
