@@ -1,3 +1,4 @@
+import javax.swing.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.InputMismatchException;
@@ -8,7 +9,9 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        Door door1 = new Door();
+        Door door = new Door();
+        Table table = new Table();
+        Window billGates = new Window();
 
         System.out.println("Please enter your name, hero!");
         String playerName;
@@ -21,13 +24,13 @@ public class Main {
                 loop = false;
             }
         } while(loop);
+        Player player = new Player(50, playerName);
+        Player enemy = new Player(50,  "Goblin");
 
-        Player player = new Player(100, playerName);
-        Player enemy = new Player(100,  "Goblin");
 
         Environment env1 = new Environment("Dark Room",
                 "You wake up in a dark room. You can see",
-                new ArrayList<Interactable>(Arrays.asList(door1))
+                new ArrayList<Interactable>(Arrays.asList(door, table, billGates))
         );
 
         System.out.println(env1);
@@ -41,15 +44,14 @@ public class Main {
                 final int choice = scan.nextInt();
                 if(choice == 1 ) {
                     System.out.println("You walk to the door.");
-                    door1.interact(player);
+                    door.interact(player);
                 } else if(choice == 2) {
                     System.out.println("You walk to the table");
-                    Table tbl = new Table();
-                    tbl.interact(player);
+
+                    table.interact(player);
                 } else if(choice == 3) {
                     System.out.println("You walk to the window");
-                    Window billgates = new Window();
-                    billgates.interact(player);
+                    billGates.interact(player);
                 }
             }
         } catch (InputMismatchException e) {
@@ -57,7 +59,7 @@ public class Main {
         }
 
         try {
-            while(!door1.getIsOpen()) {
+            while(!door.getIsOpen()) {
                 System.out.println("What would you like to do?");
                 System.out.println("1. Go to the door");
                 System.out.println("2. Go to the table");
@@ -66,15 +68,14 @@ public class Main {
                 final int choice = scan.nextInt();
                 if(choice == 1 ) {
                     System.out.println("You walk to the door.");
-                    door1.interact(player);
+                    door.interact(player);
                 } else if(choice == 2) {
                     System.out.println("You walk to the table");
                     Table tbl = new Table();
                     tbl.interact(player);
                 } else if(choice == 3) {
                     System.out.println("You walk to the window");
-                    Window billgates = new Window();
-                    billgates.interact(player);
+                    billGates.interact(player);
                 }
             }
         } catch (InputMismatchException e) {
