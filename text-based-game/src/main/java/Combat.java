@@ -16,6 +16,11 @@ public class Combat {
                 System.out.println(enemy.getName() + " damages " + player.getName());
                 player.takeDamage(rand);
             }
+            try {
+                Thread.sleep(500);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
 
         } while (player.getHealthPoints() > 0 && enemy.getHealthPoints() > 0);
 
