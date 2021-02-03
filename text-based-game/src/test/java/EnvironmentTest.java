@@ -11,17 +11,35 @@ class EnvironmentTest {
 	
 
 	@Test
-	public void testAddEnvironment() {
-		ArrayList list = new ArrayList<>();
+	public void getNameTest() {
 		Door door1 = new Door();
 		Environment room = new Environment("room", "dark and cold", new ArrayList<Interactable>(Arrays.asList(door1)));
 		assertTrue(room.getName() == "room");
+	}
+	
+	@Test
+	public void getDescriptionTest() {
+		Door door1 = new Door();
+		Environment room = new Environment("room", "dark and cold", new ArrayList<Interactable>(Arrays.asList(door1)));
 		assertTrue(room.getDescription() == "dark and cold");
+		}
+	
+	@Test
+	public void getListOfInteractablesTest() {
+		Door door1 = new Door();
+		Environment room = new Environment("room", "dark and cold", new ArrayList<Interactable>(Arrays.asList(door1)));
 		assertTrue(room.getListOfInteractables().contains(door1));
 	}
 	
-	public void testToString() {
-
+	@Test
+	
+	public void toStringTest() {
+		Door door1 = new Door();
+		Environment room = new Environment("room", "dark and cold", new ArrayList<Interactable>(Arrays.asList(door1)));
+		
+		assertEquals("dark and cold\n a door\n", room.toString());
 	}
-
 }
+
+
+

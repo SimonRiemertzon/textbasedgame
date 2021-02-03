@@ -11,7 +11,6 @@ public class Main {
         Scanner scan = new Scanner(System.in);
         Door door1 = new Door();
 
-
         System.out.println("Please enter your name, hero!");
 
         Player player = new Player(100, scan.next());
@@ -23,8 +22,8 @@ public class Main {
         );
 
         System.out.println(env1);
-
-
+        
+       
         try {
             while (!player.getHasKey()) {
                 System.out.println("What would you like to do?");
