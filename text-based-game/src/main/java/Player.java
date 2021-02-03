@@ -19,12 +19,8 @@ public class Player {
         this.healthPoints -= damage;
 
         if (this.healthPoints <= 0) {
-            System.out.printf("Spelet är över");
+            System.out.println("The game is over");
         }
-    }
-
-    public void doAction() {
-
     }
 
     public void setHasKey(Boolean hasKey) {

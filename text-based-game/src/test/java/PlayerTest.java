@@ -18,17 +18,16 @@ class PlayerTest {
 
     @Test
     void getName() {
-        fail("Not yet implemented");
+    	Player p1 = new Player(100, "Axel");
+    	assertEquals("Axel", p1.getName());
     }
 
     @Test
     void takedamage() {
-        fail("Not yet implemented");
-    }
-
-    @Test
-    void doAction() {
-        fail("Not yet implemented");
+    	Player p1 = new Player(100, "Axel");
+    	int healtPointsBeforeDamage = p1.getHealthPoints();
+    	p1.takeDamage(10);
+    	int healtPointsAfterDamage = p1.getHealthPoints();
+    	assertEquals(healtPointsAfterDamage, healtPointsBeforeDamage - 10);
     }
 }
-
