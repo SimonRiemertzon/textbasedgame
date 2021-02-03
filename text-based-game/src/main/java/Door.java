@@ -14,6 +14,15 @@ public class Door implements Interactable {
         }
     }
 
+    private void openDoor(Player player) {
+        if (player.getHasKey()) {
+            isOpen = true;
+            System.out.println("The door creaks when it opens");
+        } else {
+            System.out.println("The door is locked, you probably need a key of some sort...");
+        }
+    }
+
     @Override
     public String getName() {
         return this.name;
@@ -23,14 +32,5 @@ public class Door implements Interactable {
         return isOpen;
     }
 
-    public void openDoor(Player player) {
-        if (player.getHasKey()) {
-            isOpen = true;
-            System.out.println("The door creaks when it opens");
-        } else {
-            System.out.println("The door is locked, you probably need a key of some sort...");
-        }
 
-    }
 }
-
