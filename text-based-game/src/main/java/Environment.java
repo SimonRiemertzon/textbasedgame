@@ -1,5 +1,9 @@
 import java.util.ArrayList;
 
+/**
+ * Creates an environment with a name, description and a listOfInteractables consisting of different interactable objects.
+ * The environment is where the player can interact with objects in the game. 
+ * */
 public class Environment {
 
     private String name;
@@ -25,7 +29,10 @@ public class Environment {
     public ArrayList<Interactable> getListOfInteractables() {
         return listOfInteractables;
     }
-
+    
+    /**
+     * Returns a String consisting of the description of a Environment and the different interactive options for the current environment. 
+     */
     public String toString() {
         StringBuilder sb = new StringBuilder();
         sb.append(description + "\n");
