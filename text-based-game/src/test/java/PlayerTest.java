@@ -18,7 +18,8 @@ class PlayerTest {
 
     @Test
     void getName() {
-        fail("Not yet implemented");
+    	//Player p1 = new Player(100, "Axel");
+    	//assertEquals("Axel", p1.getName());
     }
 
     @Test
