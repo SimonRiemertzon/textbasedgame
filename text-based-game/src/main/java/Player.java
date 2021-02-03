@@ -23,10 +23,6 @@ public class Player {
         }
     }
 
-    public void doAction() {
-
-    }
-
     public void setHasKey(Boolean hasKey) {
         this.hasKey = hasKey;
     }
