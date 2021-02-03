@@ -30,10 +30,4 @@ class PlayerTest {
     	int healtPointsAfterDamage = p1.getHealthPoints();
     	assertEquals(healtPointsAfterDamage, healtPointsBeforeDamage - 10);
     }
-
-    @Test
-    void doAction() {
-    	Player p1 = new Player(100, "Axel");
-    	assertEquals(p1.doAction() = true);
-    }
 }
