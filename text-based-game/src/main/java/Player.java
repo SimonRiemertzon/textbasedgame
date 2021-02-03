@@ -19,7 +19,7 @@ public class Player {
         this.healthPoints -= damage;
 
         if (this.healthPoints <= 0) {
-            System.out.println("Spelet är över");
+            System.out.println("The game is over");
         }
     }
 
