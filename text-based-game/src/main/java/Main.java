@@ -10,8 +10,7 @@ public class Main {
 
         Scanner scan = new Scanner(System.in);
         Door door1 = new Door();
-        //new Key(); /interactable
-        //new Window(); /interactable
+
 
         System.out.println("Please enter your name, hero!");
 
