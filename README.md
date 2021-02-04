@@ -7,7 +7,7 @@ For this too work you need to have JDK 11, maven and git installed on your compu
 
 Using the terminal.
 Create a folder in where you initialize a git repository using
-"git init"
+"git init"  
 and configure it with
 "git config --global user.name "yourname""
 and
