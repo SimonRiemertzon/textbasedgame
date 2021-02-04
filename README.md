@@ -16,5 +16,5 @@ and give the command\
 "mvn package"\
 The game is now installed\
 \
-To run the game give the command\
-"java -jar target\text-based-game-0.0.1-SNAPSHOT.jar"
+To run the game move to the folder named target and give the command\
+"java -jar text-based-game-0.0.1-SNAPSHOT.jar"
