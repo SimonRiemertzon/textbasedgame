@@ -5,6 +5,11 @@ public class Player {
     private String name;
     private Boolean hasKey;
 
+    /**
+     * Creates a player with a certain amount of healthpoints and a name.
+     * @param healthPoints
+     * @param name
+     */
     public Player(int healthPoints, String name) {
         this.healthPoints = healthPoints;
         this.name = name;
@@ -15,6 +20,10 @@ public class Player {
         return healthPoints;
     }
 
+    /**
+     * A method that removes healthpoints from the player and prints out game is over if health < 0.
+     * @param damage
+     */
     public void takeDamage(int damage) {
         this.healthPoints -= damage;
 
@@ -23,8 +32,14 @@ public class Player {
         }
     }
 
+    /**
+     * If the player picks up the key he gets a printout. 
+     * @param hasKey
+     */
     public void setHasKey(Boolean hasKey) {
-        System.out.println("You now have the key in your inventory!");
+        if(hasKey) {
+            System.out.println("You now have the key in your inventory!");
+        }
         this.hasKey = hasKey;
     }
 
