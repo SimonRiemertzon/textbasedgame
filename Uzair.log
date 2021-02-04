@@ -1,25 +1,68 @@
-*   0d3e8f0 : Merge branch 'main' into uzair
+* d792b11 : Update README.md
+* 5e3e566 : Update README.md
+* 54b709b : Update README.md
+* 1fae191 : Update README.md
+*   73bbc47 : Merge pull request #33 from SimonRiemertzon/Fredrik
 |\  
-| *   d00f759 : Merge pull request #29 from SimonRiemertzon/simon
+| * d0258c3 : changes to README
+| * a622350 : expands README
+| *   f451614 : Merge branch 'main' into Fredrik
 | |\  
-| | * e0c165f : Fix faulty POM file that was pushed
-| | *   d9a5614 : Merge branch 'simon' of https://github.com/SimonRiemertzon/textbasedgame into simon
-| | |\  
-| | | *   c095122 : Merge branch 'main' into simon
-| | | |\  
-| | * | | d435675 : Fix push of faulty POM file
-| * | | |   a3c9b86 : Merge branch 'simon' into main
-| |\ \ \ \  
-| | | |/ /  
-| | |/| /   
-| | |_|/    
-| |/| |     
-| | * | f1e1b58 : Made changes to POMfile for packaging
-| | |/  
-* | / 1bff667 : removed unnessicary test code
-|/ /  
-* | f4239e3 : Merge pull request #28 from SimonRiemertzon/simon
-|\| 
+| * | 86bba59 : expands README
+* | |   7032654 : Merge pull request #34 from SimonRiemertzon/uzair
+|\ \ \  
+| |_|/  
+|/| |   
+| * | 089e64a : java docs to Combat.java
+| * |   38cbe73 : Merge branch 'main' into uzair
+| |\ \  
+| |/ /  
+|/| |   
+* | |   1f68511 : Merge pull request #32 from SimonRiemertzon/simon
+|\ \ \  
+| * | | e17b4ce : Fix bugs and general cleanup
+| * | | 93c1b71 : Force add git.log, file for review
+* | | | e2d25c9 : Merge pull request #31 from SimonRiemertzon/simon
+|\| | | 
+| * | |   8975ba5 : Merge branch 'main' into simon
+| |\ \ \  
+| |/ / /  
+|/| | |   
+* | | |   fb2f3f1 : Merge pull request #30 from SimonRiemertzon/uzair
+|\ \ \ \  
+| | * | | 48f182d : Changed POM so that we can create runnable jar file
+| | | * | 1b66d38 : log file
+| | |/ /  
+| |/| |   
+| * | |   0d3e8f0 : Merge branch 'main' into uzair
+| |\ \ \  
+| |/ / /  
+|/| | |   
+* | | |   d00f759 : Merge pull request #29 from SimonRiemertzon/simon
+|\ \ \ \  
+| | |/ /  
+| |/| |   
+| * | | e0c165f : Fix faulty POM file that was pushed
+| * | |   d9a5614 : Merge branch 'simon' of https://github.com/SimonRiemertzon/textbasedgame into simon
+| |\ \ \  
+| | * \ \   c095122 : Merge branch 'main' into simon
+| | |\ \ \  
+| * | | | | d435675 : Fix push of faulty POM file
+* | | | | |   a3c9b86 : Merge branch 'simon' into main
+|\ \ \ \ \ \  
+| | |/ / / /  
+| |/| / / /   
+| |_|/ / /    
+|/| | | |     
+| * | | | f1e1b58 : Made changes to POMfile for packaging
+| |/ / /  
+| | * / 1bff667 : removed unnessicary test code
+| |/ /  
+|/| |   
+* | | f4239e3 : Merge pull request #28 from SimonRiemertzon/simon
+|\| | 
+| |/  
+|/|   
 | * fe0d4fc : Add test for door.java
 | *   d3758e5 : Merge branch 'main' into simon
 | |\  
