@@ -1,0 +1,288 @@
+* d0258c3 : changes to README
+* a622350 : expands README
+*   f451614 : Merge branch 'main' into Fredrik
+|\  
+| *   1f68511 : Merge pull request #32 from SimonRiemertzon/simon
+| |\  
+| | * e17b4ce : Fix bugs and general cleanup
+| | * 93c1b71 : Force add git.log, file for review
+| * |   e2d25c9 : Merge pull request #31 from SimonRiemertzon/simon
+| |\ \  
+| | |/  
+| | *   8975ba5 : Merge branch 'main' into simon
+| | |\  
+| | |/  
+| |/|   
+| * |   fb2f3f1 : Merge pull request #30 from SimonRiemertzon/uzair
+| |\ \  
+| | * \   0d3e8f0 : Merge branch 'main' into uzair
+| | |\ \  
+| | |/ /  
+| |/| |   
+| * | |   d00f759 : Merge pull request #29 from SimonRiemertzon/simon
+| |\ \ \  
+| * \ \ \   a3c9b86 : Merge branch 'simon' into main
+| |\ \ \ \  
+| | | | * | 1bff667 : removed unnessicary test code
+| | |_|/ /  
+| |/| | |   
+| | | | * 48f182d : Changed POM so that we can create runnable jar file
+| | | |/  
+| | | * e0c165f : Fix faulty POM file that was pushed
+| | | *   d9a5614 : Merge branch 'simon' of https://github.com/SimonRiemertzon/textbasedgame into simon
+| | | |\  
+| | | | *   c095122 : Merge branch 'main' into simon
+| | | | |\  
+| | | |/ /  
+| | |/| /   
+| | |_|/    
+| |/| |     
+| * | |   f4239e3 : Merge pull request #28 from SimonRiemertzon/simon
+| |\ \ \  
+| | | * | f1e1b58 : Made changes to POMfile for packaging
+| | |/ /  
+| | | * d435675 : Fix push of faulty POM file
+| | |/  
+| | * fe0d4fc : Add test for door.java
+| | *   d3758e5 : Merge branch 'main' into simon
+| | |\  
+| | |/  
+| |/|   
+| | * 2a2a780 : Clean some code
+| | * e92b0a9 : Add error handling of non-alphabetical name for hero
+* | | 86bba59 : expands README
+|/ /  
+* |   59803a9 : Merge pull request #27 from SimonRiemertzon/erik
+|\ \  
+| |/  
+|/|   
+| * 4c8fcfd : removed Do Action
+| * 6a3a369 : removed Do action
+| * 128606f : added java playertest
+| * 80d2b54 : added player java
+| * 14a059d : Changed language iin systemoutprint
+| * 3c07804 : Changed Systemoutprint
+* |   b2a0e29 : Merge pull request #26 from SimonRiemertzon/uzair
+|\ \  
+| * | 939f47b : changes in CombatTest.java
+* | |   9fc9ac7 : Merge pull request #25 from SimonRiemertzon/Fredrik
+|\ \ \  
+| * \ \   5c0217f : Merge branch 'main' into Fredrik
+| |\ \ \  
+| |/ / /  
+|/| | |   
+* | | |   90d4505 : Merge pull request #24 from SimonRiemertzon/simon
+|\ \ \ \  
+| |_|/ /  
+|/| | |   
+| * | | 4ea4486 : Updated door
+| * | | ca232c5 : Updated main
+| * | | c6ec6d3 : Idea files with updated gitignore
+| * | | cf29007 : Updated .gitignore
+|/ / /  
+| * | 62c37c5 : adds more tests and javadoc for environment
+| * |   fac7713 : fixes
+| |\ \  
+| |/ /  
+|/| |   
+* | |   c1913e8 : Merge pull request #23 from SimonRiemertzon/simon
+|\ \ \  
+| * | | b07621d : Implement keyclass into game
+|/ / /  
+* | |   b9247a7 : Merge pull request #22 from SimonRiemertzon/erik
+|\ \ \  
+| | |/  
+| |/|   
+| * | 7254e74 : Add key class
+|/ /  
+* |   7811cb7 : Merge pull request #21 from SimonRiemertzon/uzair
+|\ \  
+| * | 4dfec39 : fix bugs
+|/ /  
+* |   afc4ac1 : Merge pull request #20 from SimonRiemertzon/uzair
+|\ \  
+| * \   22ac7d7 : Merge branch 'main' into uzair
+| |\ \  
+| |/ /  
+|/| |   
+* | |   83c3a11 : Merge pull request #19 from SimonRiemertzon/simon
+|\ \ \  
+| * | | 15bdee0 : Add instructions
+| * | | 1d449eb : Make game barely playable
+* | | |   39b3860 : Merge pull request #18 from SimonRiemertzon/simon
+|\ \ \ \  
+| |/ / /  
+| * | | 12e3450 : Simplified enviroment
+|/ / /  
+* | |   0f9bbf7 : Merge pull request #16 from SimonRiemertzon/Fredrik
+|\ \ \  
+| * \ \   d4da422 : Merge branch 'main' into Fredrik
+| |\ \ \  
+| |/ / /  
+|/| | |   
+* | | |   2db3571 : Merge pull request #17 from SimonRiemertzon/simon
+|\ \ \ \  
+| * | | | d5c7f96 : Add more work on game
+| * | | | a2ad41b : Add test for player
+| * | | | 1b9b491 : Implement more of main game
+| * | | | 29fb148 : Add skeleton functionality
+| * | | | 7d82904 : Call sethaskey in Door
+| * | | | abe5a5b : Remove unused parameter in constructor
+|/ / / /  
+| | * | 0d870aa : add test for Combat
+| |/ /  
+|/| |   
+| | * 4c218e9 : add small uppdates
+| |/  
+| * da3eb0e : add Window.java
+| * 7729279 : track all files
+| *   4aa98c7 : fix merge conflict
+| |\  
+| |/  
+|/|   
+* |   3995298 : Fix merge conflict in combat
+|\ \  
+| * \   64419bd : Merge pull request #15 from SimonRiemertzon/simon
+| |\ \  
+| | * \   6b7f568 : Merge branch 'main' into simon
+| | |\ \  
+| | |/ /  
+| |/| |   
+| * | |   824e238 : Merge pull request #14 from SimonRiemertzon/uzair
+| |\ \ \  
+| | * | | c57c3db : changed method to static
+| * | | | 160951d : latest version
+| |/ / /  
+* | | | 5002636 : Stash commit
+| |/ /  
+|/| |   
+* | | ceee98a : Add functionality for interactable objects in game
+* | | b350060 : Remove unessary files and test combat
+* | |   cfde1a1 : Merge branch 'main' into simon
+|\ \ \  
+| * \ \   126fbed : Merge branch 'main' of https://github.com/SimonRiemertzon/textbasedgame into main
+| |\ \ \  
+| | |/ /  
+| | * |   01f4c30 : Merge pull request #13 from SimonRiemertzon/uzair
+| | |\ \  
+| | | * | 5505a6a : added ThreadLocalRandom
+| | |/ /  
+* | | | b416955 : Re-add variables
+* | | |   a5ef40d : Fix merge
+|\ \ \ \  
+| |/ / /  
+| * | |   225880a : Fix merge conflict
+| |\ \ \  
+| | |/ /  
+| | * |   82ca761 : Merge pull request #12 from SimonRiemertzon/Fredrik
+| | |\ \  
+* | | | | f82be7c : Stash commit for changing branch
+* | | | |   1aecf0b : Fix merge conflict
+|\ \ \ \ \  
+| |/ / / /  
+| * | | |   af63351 : Fix Merge Conflict
+| |\ \ \ \  
+* | | | | | 333d149 : Add to switch branch
+* | | | | | 4a22dea : Add some progress to game
+|/ / / / /  
+* | | | |   9785532 : Merge branch 'main' of https://github.com/SimonRiemertzon/textbasedgame into main
+|\ \ \ \ \  
+* \ \ \ \ \   fc2de1b : Fix merge conflict
+|\ \ \ \ \ \  
+* | | | | | | dbfa87b : Stash work on projekt
+* | | | | | | c87fa2d : Stash work on projekt
+| | | | | | * ae4ad5d : new toString and test
+| | | | | | *   da03cb4 : Merge branch 'main' into Fredrik
+| | | | | | |\  
+| | | | | |/ /  
+| | | | | | /   
+| | | | | |/    
+| | | | |/|     
+| | | | * |   c5603b8 : Merge pull request #11 from SimonRiemertzon/uzair
+| | | | |\ \  
+| | | |/ / /  
+| | | | * | 3e37956 : combat method
+| | | | * |   ced8641 : Merge branch 'main' into uzair
+| | | | |\ \  
+| | | |_|/ /  
+| | |/| | |   
+| | | | | * 88fa347 : add EnvironmentTest
+| | | | | *   679cf0d : Merge branch 'main' into Fredrik
+| | | | | |\  
+| | | | |_|/  
+| | | |/| |   
+| | | * | |   7b5ad13 : Merge pull request #10 from SimonRiemertzon/uzair
+| | | |\ \ \  
+| | |/ / / /  
+| | | | _ /   
+| | | |  /    
+| | | * | dfd1189 : edited camelcase errors in Player.java
+| | * | |   2248b4d : Merge pull request #9 from SimonRiemertzon/uzair
+| | |\ \ \  
+| |/ / / /  
+| | | _ /   
+| | |  /    
+| | * | 43ad456 : update combat.java
+| | * | 07d11e6 : delete test file
+| | * |   cc4f806 : Merge branch 'main' into uzair
+| | |\ \  
+| | * \ \   c0a3245 : Merge branch 'main' into uzair
+| | |\ \ \  
+| | * | | | ea35b36 : Add a testfile to test git
+| * | | | |   c278203 : Merge pull request #8 from SimonRiemertzon/Fredrik
+| |\ \ \ \ \  
+|/ / / / / /  
+* | | | | |   fd1dd0a : Merge pull request #7 from SimonRiemertzon/Fredrik
+|\ \ \ \ \ \  
+| |_|_|_|/ /  
+|/| | | | |   
+| | | | | * f97a12b : corrects spelling errors
+| | | |_|/  
+| | |/| |   
+| | * | | 02f48eb : changes in Enviroment
+| |/ / /  
+| * | | d4fbd45 : Adds enviroment and actionable
+|/ / /  
+* | |   1976084 : Merge pull request #6 from SimonRiemertzon/erik
+|\ \ \  
+| |_|/  
+|/| |   
+| * | b2a2303 : Adds player
+| * |   b038922 : Merge branch 'main' into erik
+| |\ \  
+| |/ /  
+|/| |   
+* | |   1da8ded : Merge pull request #5 from SimonRiemertzon/simon
+|\ \ \  
+| * | | 9639ab6 : Add rudementry project classfiles & tests
+| * | | afa1549 : Add rudementry classes for projekt
+|/ / /  
+* | |   ea549f7 : Merge pull request #4 from SimonRiemertzon/Fredrik
+|\ \ \  
+| * | | 82247dc : Removes Hello.java PrintHello.java HelloTest.java adds Enviroment.java Interactable.java
+* | | | b20038d : Add intellij project files even if we dont need them
+* | | | b2920e6 : Add project files for intellij
+|/ / /  
+* | | 6817e1b : Move pom file back
+* | | 8131289 : Moved POM file to get jenkins to work
+* | | dac372c : Remove unesessary test files
+| * |   e7e7e70 : Merge branch 'main' into erik
+| |\ \  
+| |/ /  
+|/| |   
+* | |   cc4df03 : Merge pull request #3 from SimonRiemertzon/Fredrik
+|\ \ \  
+| * | | efea79f : Adds maven package structure
+| * | | 89d82ed : Add a test file to test git
+| | |/  
+| |/|   
+* | |   96c1b9e : Merge pull request #2 from SimonRiemertzon/simon
+|\ \ \  
+| |/ /  
+|/| |   
+| * | 11b3fd3 : Add a testfile to test git
+|/ /  
+| * 7450902 : ett test commit
+|/  
+* 2c89b10 : Update .gitignore
+* 2bd1b11 : Initial commit
