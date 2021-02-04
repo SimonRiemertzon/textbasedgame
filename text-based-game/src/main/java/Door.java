@@ -2,6 +2,10 @@ public class Door implements Interactable {
     private Boolean isOpen = false;
     private String name = "a door";
 
+    /**
+     * This function will take a player and interact with this "interactable-object" In case of door, it checks if the player has the key.
+     * @param player
+     */
     @Override
     public void interact(Player player) {
         if(player.getHasKey()) {
@@ -14,6 +18,10 @@ public class Door implements Interactable {
         }
     }
 
+    /**
+     * Opening door if player has a key.
+     * @param player
+     */
     private void openDoor(Player player) {
         if (player.getHasKey()) {
             isOpen = true;
