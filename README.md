@@ -5,7 +5,7 @@ Installing and running the game:\
 \
 For this too work you need to have JDK 11, maven and git installed on your computer.\
 \
-Using the terminal.\
+Using the terminal.
 
 Pull down this github repository using the terminal to your folder with:\
 "git clone https://github.com/SimonRiemertzon/textbasedgame.git"
