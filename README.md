@@ -5,25 +5,19 @@ Installing and running the game:
 
 For this too work you need to have JDK 11, maven and git installed on your computer.
 
+Using the terminal.
+Create a folder in where you initialize a git repository using
+"git init"
+and configure it with
+"git config --global user.name "yourname""
+and
+"git config --global user.email "my@email.com""
 Pull down this github repository using the terminal to your folder with:
 "git pull https://github.com/SimonRiemertzon/textbasedgame.git"
-to a folder on your computer.
 
 While still in the terminal move from your folder to the folder named
 "text-based-game"
 and give the command
-"mvn compile"
-The game is now installed.
-
-To run the game give the command
-"java Main"
-while still in the same folder as before.
-
-Or
-
-while in the folder
-"text-based-game"
-give the comand
 "mvn package"
 The game is now installed
 
