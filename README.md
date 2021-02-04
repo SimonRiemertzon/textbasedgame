@@ -13,7 +13,7 @@ and configure it with\
 and\
 "git config --global user.email "my@email.com""\
 Pull down this github repository using the terminal to your folder with:\
-"git pull https://github.com/SimonRiemertzon/textbasedgame.git"\
+"git pull https://github.com/SimonRiemertzon/textbasedgame.git"
 \
 While still in the terminal move from your folder to the folder named\
 "text-based-game"\
